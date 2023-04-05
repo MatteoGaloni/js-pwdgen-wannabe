@@ -5,7 +5,13 @@ console.log(`L'utente dichiara che il suo cognome è ${cognome}`);
 let colorePreferito = prompt("Qual è il tuo colore preferito?");
 console.log(`L'utente dichiara che il suo colore preferito è ${colorePreferito}`);
 
+let anno = 2023;
+let risultato = nome + cognome + colorePreferito + anno
+
 
 document.getElementById("name").innerText = nome;
 document.getElementById("surname").innerText = cognome;
 document.getElementById("color").innerText = colorePreferito;
+document.getElementById("risult").innerText = risultato;
+
+
